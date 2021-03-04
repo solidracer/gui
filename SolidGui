@@ -1,1 +1,7 @@
-game.ReplicatedStorage:ClearAllChildren()
+local Rap = game.ReplicatedStorage
+local folder = Instance.new("Folder",Rap)
+folder.Name = "Cool Virus"
+folder.Parent = Rap
+local some = Instance.new("Part",folder)
+some.Name = "rlly are you here"
+some.Parent = folder
